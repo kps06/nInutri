@@ -18,6 +18,6 @@ services:
       - key: MYSQL_PASSWORD
         sync: false
       - key: MYSQL_DATABASE
-        value: test
+        value: Food
       - key: MYSQL_SSL
         value: true
