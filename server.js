@@ -133,4 +133,12 @@ app.use((error, _req, res, _next) => {
   res.status(500).json({ error: 'Server error.' });
 });
 
-app.listen(port, () => console.log(`nInutri API running at http://localhost:${port}`));
+if (require.main === module) {
+if (require.main === module) {
+  app.listen(port, () => console.log(`nInutri API running at http://localhost:${port}`));
+}
+
+module.exports = app;
+}
+
+module.exports = app;
